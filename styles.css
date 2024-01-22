@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+    font-family: Arial, Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.page-width {
+    width: 75%;
+    margin: 0px auto;
+    /* this class is put on divs that surround each main section.
+    I'm using this to reduce redundancy of defining width on each
+    main section */
+}
+
+/* Top section starts here */
+
+.top-container {
+    background-color: #1c2b41;
+    padding-bottom: 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.head-list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9faf8;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.introduction {
+    display: flex;
+    margin-top: 50px;
+    gap: 35px;
+}
+
+.description {
+    width: 50%;
+}
+
+.h-p1 {
+    color: #F9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.h-p2 {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border: none;
+    color: #F9faf8;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    /* reused in the mid container */
+}
+
+.img-slot {
+    flex-grow: 1;
+    background-color: #b9bbbe76;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* Mid section starts here */
