@@ -1,1 +1,1 @@
-# odin-landing-page
+For this project, I'll only be looking up information for concepts that I need help remembering. I'm going to avoid looking at others' completed projects. Personal reference if I ever look back at this: I'm 1 month into TOP, and I'm supposed to be asleep right now to travel for work tomorrow.
