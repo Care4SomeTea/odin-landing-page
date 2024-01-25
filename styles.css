@@ -181,8 +181,20 @@ div.quote div p:nth-child(2) {
 
 .sign-up-banner div p {
     margin: 0px;
+    flex-shrink: 1;
+    max-height: 75px;
 }
 
 div.sign-up-banner button {
     border: 2px solid white;
+}
+
+/* Footer section starts here  */
+
+.lower-container {
+    background-color: #1c2b41;
+    color: #E5E7EB;
+    font-size: 14px;
+    padding: 40px 0px;
+    text-align: center;
 }
