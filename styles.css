@@ -91,3 +91,67 @@ a {
 }
 
 /* Mid section starts here */
+
+.mid-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  padding-bottom: 125px;
+}
+
+div.info > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-width > p {
+  font-weight: 800;
+  font-size: 36px;
+  color: #1f2937;
+  text-align: center;
+}
+
+.box {
+    border: 3px solid #3882f6;
+    width: 175px;
+    height: 175px;
+    border-radius: 15px;
+}
+
+.subtext {
+  max-width: 175px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.quote {
+    background-color: #e5e7e5;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.quote p {
+    margin: 0px;
+}
+
+div.quote > div p:nth-child(1) {
+  font-size: 24px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+div p:nth-child(2) {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+}
